@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure the vault</title>
+    <link rel="stylesheet" href="./stylesheet.css"
+</head>
+<body>
+    <!-- Goal- give user the code 10-40-39-->
+    <h1> Secure the Vault</h1>    
+    <section>
+    <p>
+        Here is the secret code: 
+    </p>
+    </section>
+
+    <script>
+//pseudocode:
+//alert user to mission. find out which OS they have.
+// If windows -> display message. Else -> display relevent message
+// Have code in console.log for either user
+
+//send the alerts
+        alert("You have recieved this message because you have been chosen to open an important vault...");
+        alert("... but first...")
+//find out if user has windows or mac
+  let yesWindows= confirm("Do you have Windows?")
+  //if windows, display the message that makes sense for windows users
+ if(yesWindows){
+    document.write("abcdefghijCTRLklmnopqrSHIFTtuvwxyzJ")
+    } else {
+        //if else (mac user), change verbage that appears
+        document.write("abcOption⌘Jdefghijklmnop");    }
+// create three variables with arthimetic equation that will match the combo
+const firstNum= 3*2+16/4;
+const secondNum= 100/2-5*2;
+const thirdNum= 8*5-1+0;
+//the answers to the key are captured in the log
+console.log(firstNum, secondNum, thirdNum);
+
+    </script>
+</body>
+</html>
